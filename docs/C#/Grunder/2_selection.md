@@ -6,7 +6,9 @@ icon: material/call-split
 
 # Selektion
 
-If, else if och else är grundläggande kontrollstrukturer i C# som används för att styra flödet av programmet baserat på villkor. De gör det möjligt att utföra olika kodblock beroende på om ett visst villkor är sant eller falskt.
+*If*, *else if* och *else* är grundläggande kontrollstrukturer i C# som används för att styra flödet av programmet baserat på villkor. De gör det möjligt att utföra olika kodblock beroende på om ett visst villkor är sant eller falskt.
+
+Här är ett enkelt exempel som visar hur if, else if och else fungerar i C#:
 
 ```csharp
 int number = 10;
@@ -25,3 +27,17 @@ else
 }
 ``` 
 
+Här är samma flöde visualiserat som ett flödesschema:
+
+
+```mermaid
+flowchart TD
+    A@{shape: stadium, label: "Programmet startar" } -- number = 10 --> B{number > 0?}
+    B -- Ja --> C[Numret är positivt]
+    B -- Nej --> D{number < 0?}
+    D -- Ja --> E[Numret är negativt]@{ shape: display }
+    D -- Nej --> F[Numret är noll]
+    C --> G@{ shape: stadium, label: "Programmet slutar" }
+    E --> G
+    F --> G
+```

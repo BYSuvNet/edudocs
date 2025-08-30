@@ -36,3 +36,10 @@ Block quotes:
 > The first rule about fight club is you don’t talk about fight club.
 >
 > The second rule about fight club is you don’t talk about fight club.
+
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]

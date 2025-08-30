@@ -1,7 +1,7 @@
 ---
 title: Metoder
 description: Metoder är återanvändbara kodblock.
-icon: fontawesome/solid/infinity
+icon: material/code-block-braces
 ---
 
 # Metoder
