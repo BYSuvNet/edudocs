@@ -6,7 +6,12 @@ theme:
     - navigation.instant
     - navigation.footer
   name: material
-  logo: assets/logo.png
+  font:
+    text: Merriweather Sans
+    # code: Red Hat Mono
+  icon:
+    # logo: assets/logo.png
+    logo: fontawesome/solid/code
   repo_url: https://github.com/squidfunk/mkdocs-material
   palette:
     # Palette toggle for light mode
@@ -22,3 +27,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
