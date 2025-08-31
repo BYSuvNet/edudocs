@@ -71,3 +71,5 @@ flowchart TD
     H -- Ja --> I[Skapa konto] --> K@{ shape: stadium, label: "Slut" }
     H -- Nej --> J@{ shape: in-out, label: "Visa felmeddelande" } --> G
 ```
+
+Det finns många fler olika fomer som används i flowcharts. Vill du läsa mer kan du titta här, och scrolla ner en bit: https://mermaid.js.org/syntax/flowchart.html

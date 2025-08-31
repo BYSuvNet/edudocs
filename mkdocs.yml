@@ -2,12 +2,18 @@ site_name: C# - Så funkar det
 site_url: https://www.suvnet.se/
 theme:
   features:
-    - navigation.sections
+    # - navigation.sections
+    # - navigation.expand
     - navigation.instant
     - navigation.footer
+    - navigation.tracking
+    - navigation.indexes
+    - toc.integrate
+    # - navigation.path
+    # - navigation.tabs
   name: material
-  font:
-    text: Merriweather Sans
+  # font:
+    # text: Merriweather Sans
     # code: Red Hat Mono
   icon:
     # logo: assets/logo.png
@@ -27,6 +33,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.keys
   - attr_list
   - def_list
@@ -46,3 +55,33 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-HTLCGP34WH
+    feedback:
+      title: Hur var den här sidan?
+      ratings:
+        - icon: material/emoticon-excited
+          name: Bra!
+          data: 2
+          note: >-
+            Tack för feedback!
+        - icon: material/emoticon-happy
+          name: Den var ok.
+          data: 1
+          note: >-
+            Tack för feedback!
+        - icon: material/emoticon-neutral
+          name: Sidan kan förbättras
+          data: 0
+          note: >- 
+            Tack för feedback! Säg gärna till om du saknar något eller har några idéer!
+  consent:
+    title: Cookie consent
+    description: >- 
+      Hjälp mig förstå hur denna dokumentation används genom att tillåta cookies! På så vis kan jag förbättra denna dokumentation. Tack <3
+copyright: Copyright &copy; 2024 - 2025 Gustav Bodell
+plugins:
+    - tags

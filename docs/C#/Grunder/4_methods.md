@@ -1,7 +1,9 @@
 ---
-title: Metoder
-description: Metoder är återanvändbara kodblock.
-icon: material/code-block-braces
+    title: Metoder
+    description: Metoder är återanvändbara kodblock.
+    icon: material/code-block-braces
+    tags:
+        - OOP1
 ---
 
 # Metoder

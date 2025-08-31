@@ -1,7 +1,9 @@
 ---
-title: Selektion
-description: If, else if och else är grundläggande kontrollstrukturer i C#.
-icon: material/call-split
+    title: Selektion
+    description: If, else if och else är grundläggande kontrollstrukturer i C#.
+    icon: material/call-split
+    tags:
+        - OOP1
 ---
 
 # Selektion

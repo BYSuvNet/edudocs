@@ -1,7 +1,7 @@
 ---
-title: Börja här!
-# hide:
-#   - toc
+  title: Börja här!
+  hide:
+    - toc
 ---
 
 # Välkommen!
@@ -19,11 +19,13 @@ Det första du behöver göra för att komma igång med att programmera i C# är
 1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=macos
 2. Följ instruktionerna. Det är lite krångligare än windows men det går.
 
-### Om du har Linux har du säkert redan laddat ner VS Code och .NET SDK :)
+### Om du har Linux:
+1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=linux
+2. Följ instruktionerna. Det är lite krångligare än windows
 
 ### VSCode
 
-Visual Studio Code är en editor för att skriva kod. Det är ett program som gör det lättare att skriva och redigera kod. Det finns många tillägg som gör det ännu bättre.
+Visual Studio Code är en editor för att skriva kod. Det är ett program som gör det lättare att skriva och redigera kod. Det finns många tillägg som gör det ännu bättre. Det är ok att använda andra editorer också, men då får du klara dig på egen hand, då det är VS Code som används för alla demonstrationer.
 
 ### Tillägget C# DevKit
 
