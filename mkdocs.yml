@@ -1,5 +1,5 @@
 site_name: C# - Så funkar det
-site_url: https://www.suvnet.se/
+site_url: https://bysuvnet.github.io/edudocs
 theme:
   features:
     # - navigation.sections
