@@ -12,9 +12,9 @@ theme:
     # - navigation.path
     # - navigation.tabs
   name: material
-  # font:
-    # text: Merriweather Sans
-    # code: Red Hat Mono
+  font:
+    text: Montserrat
+    code: Source Code Pro
   icon:
     # logo: assets/logo.png
     logo: fontawesome/solid/code
@@ -85,3 +85,4 @@ extra:
 copyright: Copyright &copy; 2024 - 2025 Gustav Bodell
 plugins:
     - tags
+    # - privacy

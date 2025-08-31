@@ -34,4 +34,3 @@ Tillägget C# DevKit är ett tillägg för Visual Studio Code som gör det lätt
 ### .NET SDK
 
 .NET SDK är en samling verktyg som gör det möjligt att bygga och köra .NET-applikationer. Det innehåller kompilatorer, verktyg för att hantera paket och mycket mer.
-
