@@ -56,7 +56,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
-  generator: false
+  # generator: false
   analytics:
     provider: google
     property: G-HTLCGP34WH
@@ -85,4 +85,3 @@ extra:
 copyright: Copyright &copy; 2024 - 2025 Gustav Bodell
 plugins:
     - tags
-    # - privacy
