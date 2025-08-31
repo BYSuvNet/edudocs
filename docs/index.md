@@ -1,5 +1,6 @@
 ---
   title: Börja här!
+  description: Kom igång med C# och .NET
   hide:
     - toc
 ---
