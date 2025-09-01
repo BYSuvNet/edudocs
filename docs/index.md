@@ -14,7 +14,7 @@ De stora sektionerna på sidan är:
 #### Allmänt
 Här finns det lite allmänna saker som är bra att känna till när du programmerar, som vanliga begrepp, metodik och felsökning, samt information om .NET-ramverket. 
 
-#### C#
+#### C\#
 Allt som har specifikt med C# att göra, samt grundläggande info om objektorienterad programmering.
 
 #### GIT

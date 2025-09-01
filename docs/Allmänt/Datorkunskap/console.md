@@ -28,3 +28,27 @@ Konsolen är ett textbaserat gränssnitt som låter användaren interagera med d
 **Olika sätt i Linux**:
 
 * Tryck på ++ctrl+alt+t++.
+
+## Grundläggande inbyggda kommandon
+
+| VAD                            | WINDOWS (CMD)                 | LINUX (Bash) / MacOS (Terminal) |
+|--------------------------------|-------------------------------|---------------------------------|
+| **Gå till mapp**               | `cd path\to\folder`           | `cd path/to/folder`             |
+| **Gå bakåt**                   | `cd ..`                       | `cd ..`                         |
+| **Lista filer och mappar**     | `dir`                         | `ls`                            |
+| **Lista även dolda filer**     | `dir /a`                      | `ls -a`                         |
+| **Lista filer av viss typ**    | `dir *.png`                   | `ls *.png`                      |
+| **Rensa skärmen**              | `cls`                         | `clear`                         |
+| **Skapa ny mapp**              | `mkdir minkatalog`            | `mkdir minkatalog`              |
+| **Ta bort mapp (tom)**         | `rmdir minkatalog`            | `rmdir minkatalog`              |
+| **Ta bort mapp (med innehåll)**| `rmdir /S minkatalog`         | `rm -r minkatalog`              |
+| **Visa PATH-variabler**        | `path`                        | `echo $PATH`                    |
+| **Skapa fil**                  | `echo text > file.txt`        | `echo "text" > file.txt` / `touch file.txt` |
+| **Lägg till i fil**            | `echo mertext >> file.txt`    | `echo "mertext" >> file.txt`    |
+| **Ta bort fil**                | `del file.txt`                | `rm file.txt`                   |
+| **Visa innehåll i fil**        | `type file.txt`               | `cat file.txt`                  |
+| **Kopiera fil**                | `copy a.txt b.txt`            | `cp a.txt b.txt`                |
+| **Flytta/Byt namn på fil**     | `move a.txt b.txt`            | `mv a.txt b.txt`                |
+
+!!! tip
+    Du kan använda ++tab++ för att autocompleta fil- och mappnamn i terminalen. Skriv början av namnet och tryck ++tab++. Om det finns flera alternativ, tryck ++tab++ igen för att se en lista på möjliga alternativ.
