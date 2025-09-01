@@ -1,27 +1,28 @@
 ---
-hide:
-  - toc
+title: Filsystemet
+description: Grundläggande begrepp om filer och mappar i ett filsystem.
 ---
 
 # Filsystemet
 
-Det här är en hemsida som sammanfattar grunderna i C# och utveckling i Microsoft .NET och Visual Studio Code.
+Det är ett måste att ha koll på filer och mappar(kataloger) som utvecklare och avancerad datoranvändare. Här är en snabb genomgång av de viktigaste begreppen.
 
-## Kom igång
-Det första du behöver göra för att komma igång med att programmera i C# är detta:
+#### Filer
+Filer är enheter som används för att lagra data på en dator. De kan innehålla olika typer av information, såsom text, bilder, ljud eller programkod. Filer organiseras i ett hierarkiskt system av mappar (kataloger) för att underlätta åtkomst och hantering.
 
-1. Installera Visual Studio Code (VSCode). Det är programmet vi skriver vår kod i.
-2. Installera ett tillägg för C# i VSCode
-3. Installera .NET SDK - det är verktygen vi använder för att bygga och köra vår kod.
+Filer innehåller faktiskt bara ettor och nollor (binär data). Det är filändelsen som avgör hur datorn ska tolka innehållet. Exempelvis så är `.txt` en textfil, `.jpg` är en bildfil och `.exe` är en körbar fil (program). Att filer har olika ikoner och att olika program startas när vi dubbelklickar på dem, har enbart med filändelsen att göra.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+#### Mappar/Kataloger
+Mappar, eller kataloger som de också kallas, är behållare som används för att organisera och lagra filer på en dator. De kan innehålla både filer och andra mappar, vilket skapar en hierarkisk struktur som gör det lättare att hitta och hantera data.
 
-## Project layout
+#### Sökväg
+En sökväg är en sträng som anger platsen för en fil eller mapp i ett filsystem. Det finns två typer av sökvägar: absoluta och relativa.
+* Absoluta sökvägar börjar från rotkatalogen och anger hela vägen till filen eller mappen, t.ex. `C:\Användare\DittNamn\Dokument\fil.txt`.
+* Relativa sökvägar anger platsen i förhållande till den aktuella katalogen, t.ex. `Dokument\fil.txt` om du befinner dig i `C:\Användare\DittNamn`.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### Rotkatalog
+Rotkatalogen är den översta nivån i ett filsystem. På Windows-system är rotkatalogen vanligtvis representerad av en enhetsbokstav följt av ett kolon och ett snedstreck, t.ex. `C:\`. På Unix-baserade system, som Linux och macOS, är rotkatalogen representerad av ett snedstreck `/`.
+Enhetsbokstaven representerar en specifik lagringsenhet, som en hårddisk eller en USB-enhet. Varje enhet har sin egen enhetsbokstav och rotkatalog.
+
+#### Projektkalatalog
+En projektkatalog är en specifik mapp som innehåller alla filer och underkataloger relaterade till ett specifikt projekt. Denna katalog fungerar som en central plats för att organisera och hantera projektets resurser, såsom källkod, dokumentation, konfigurationsfiler och andra nödvändiga komponenter.

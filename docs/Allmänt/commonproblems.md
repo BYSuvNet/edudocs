@@ -1,8 +1,6 @@
 ---
     title: Vanliga problem och felmeddelanden
     description: Det är lätt att det blir fel ibland. Här är några vanliga problem och hur du kan lösa dem.
-    hide: 
-    - toc
 ---
 
 ## Vanliga problem och felmeddelanden

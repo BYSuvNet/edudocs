@@ -1,8 +1,6 @@
 ---
-title: Det binära talsystemet
-description: Det binära talsystemet är grunden för all modern datorteknik.
-hide:
-  - toc
+    title: Det binära talsystemet
+    description: Det binära talsystemet är grunden för all modern datorteknik.
 ---
 
 # Det binära talsystemet

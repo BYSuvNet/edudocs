@@ -1,7 +1,7 @@
 ---
 title: Begrepp
 description: Vanliga begrepp inom programmering och på denna site.
-# status: new
+show_toc: true
 ---
 
 # Begrepp
@@ -18,13 +18,14 @@ Typ är en egenskap hos data som bestämmer vilken sorts värde det är och vilk
 Vad betyder egentligen kodkvalitet? Kodkvalitet handlar om hur bra koden är skriven och hur lätt den är att förstå, underhålla och vidareutveckla. Hög kodkvalitet innebär att koden är ren, välstrukturerad och följer bästa praxis. Det gör det enklare för andra (och dig själv) att arbeta med koden i framtiden. Detta är dock inget objektivt begrepp, utan olika utvecklare kan ha olika åsikter om vad som är kod av hög kvalitet.
 
 #### Kodstandard
-Kodstandard är en uppsättning regler och riktlinjer som hjälper utvecklare att skriva konsekvent och lättläst kod. Att följa en kodstandard gör det enklare för andra (och dig själv) att förstå och underhålla koden i framtiden. Exempel på kodstandarder inkluderar namngivningskonventioner, indentering och kommentarer. Läs mer [HÄR]().
+Kodstandard är en uppsättning regler och riktlinjer som hjälper utvecklare att skriva konsekvent och lättläst kod. Att följa en kodstandard gör det enklare för andra (och dig själv) att förstå och underhålla koden i framtiden. Exempel på kodstandarder inkluderar namngivningskonventioner, indentering och kommentarer. [Läs mer här.](./Metodik/kodstandard.md).
 
 #### Kompilera
 Att kompilera betyder att översätta koden från ett språk till ett annat. I C# så kompilieras koden till så kallad IL-kod (Intermediate Language) som sedan körs av .NET:s Common Language Runtime (CLR) när programmet startas.
 
 #### Terminal/Konsol
 Terminalen, eller konsolen som det också kallas, är ett textbaserat gränssnitt som låter användaren interagera med datorn genom att skriva kommandon. Terminalen används också ofta för att administrera system över internet. Program som inte behöve något grafiskt gränssnitt körs ofta i terminalen, då de är lättare och snabbare att utveckla.
+[ Läs mer här.](./Datorkunskap/console.md).
 
 #### .NET
 .NET är en plattform för att bygga och köra applikationer. Den inkluderar ett stort bibliotek av förbyggda funktioner och verktyg som gör det enklare att utveckla programvara. .NET utvecklas av Microsoft och är öppen källkod.
