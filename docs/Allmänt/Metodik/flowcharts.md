@@ -1,7 +1,7 @@
 ---
 title: Flowcharts 
 description: Visuella diagram för att visa flöden.
-# icon: material/variable
+icon: material/source-fork
 ---
 
 # Flowcharts

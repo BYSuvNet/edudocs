@@ -1,37 +1,24 @@
 ---
   title: Börja här!
   description: Kom igång med C# och .NET
-  hide:
-    - toc
 ---
 
 # Välkommen!
 
 Det här är en hemsida som sammanfattar grunderna i C# och utveckling i Microsoft .NET och Visual Studio Code.
 
-## Snabb kom-igång
-Det första du behöver göra för att komma igång med att programmera i C# är att ladda ner VS Code och .Net SDK. Det absolut lättaste sättet att gör det är att:
+Det första du kan göra om du är helt ny är att gå till [Snabbguiden](./Övrigt/Guider/quickstart.md) och följa instruktionerna där för att installera allt du behöver, och komma igång med din första C#-applikation.
 
-### Om du har Windows:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=windows
-2. Tryck på "Let's get started" och följ instruktionerna.
+De stora sektionerna på sidan är:
 
-### Om du har Mac:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=macos
-2. Följ instruktionerna. Det är lite krångligare än windows men det går.
+#### Allmänt
+Här finns det lite allmänna saker som är bra att känna till när du programmerar, som vanliga begrepp, metodik och felsökning, samt information om .NET-ramverket. 
 
-### Om du har Linux:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=linux
-2. Följ instruktionerna. Det är lite krångligare än windows
+#### C#
+Allt som har specifikt med C# att göra, samt grundläggande info om objektorienterad programmering.
 
-### VSCode
+#### GIT
+Versionshantering och samarbete med GIT och GitHub.
 
-Visual Studio Code är en editor för att skriva kod. Det är ett program som gör det lättare att skriva och redigera kod. Det finns många tillägg som gör det ännu bättre. Det är ok att använda andra editorer också, men då får du klara dig på egen hand, då det är VS Code som används för alla demonstrationer.
-
-### Tillägget C# DevKit
-
-Tillägget C# DevKit är ett tillägg för Visual Studio Code som gör det lättare att skriva C#-kod. Det ger dig syntaxmarkering, autocompletion och mycket mer.
-
-### .NET SDK
-
-.NET SDK är en samling verktyg som gör det möjligt att bygga och köra .NET-applikationer. Det innehåller kompilatorer, verktyg för att hantera paket och mycket mer.
+#### Testning
+Framförallt enhetstestning och TDD (Test Driven Development).

@@ -1,5 +1,5 @@
 ---
-    title: Vanliga problem och felmeddelanden
+    title: Vanliga problem
     description: Det är lätt att det blir fel ibland. Här är några vanliga problem och hur du kan lösa dem.
 ---
 

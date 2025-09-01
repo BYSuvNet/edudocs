@@ -1,7 +1,7 @@
 ---
 title: Parprogrammering 
 description: Att koda tillsammans är kul och bra!
-# icon: material/variable
+icon: octicons/people-24
 ---
 
 # Parprogrammering

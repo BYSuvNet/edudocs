@@ -1,7 +1,7 @@
 ---
 title: Kodstandard 
 description: Hur vi skriver kod på ett standardiserat sätt.
-# icon: material/variable
+icon: fontawesome/solid/handshake
 ---
 
 # Kodstandard

@@ -8,6 +8,9 @@ show_toc: true
 
 Det kommer dyka upp många olika begrepp när du lär dig programmera. Här är en lista på några av de vanligaste. Kommer du på något som saknas här, säg till så lägger vi till det!
 
+#### Köra/exekvera
+Att köra eller exekvera betyder att starta ett program så att det börjar göra det som det är tänkt att göra. När du kör ett program så laddas koden in i datorns minne och processorn börjar utföra instruktionerna i koden.
+
 #### Deklarera
 Att deklarera betyder att skapa en variabel, funktion, klass eller liknande. När du deklarerar något så berättar du för kompilatorn att det finns en sak med ett visst namn och typ.
 

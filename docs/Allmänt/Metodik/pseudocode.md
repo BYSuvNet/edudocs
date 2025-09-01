@@ -1,7 +1,7 @@
 ---
 title: Pseudokod 
 description: Använd pseudokod för att planera din kod.
-# icon: material/variable
+icon: material/text
 ---
 
 # Pseudokod

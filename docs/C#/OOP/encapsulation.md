@@ -1,5 +1,5 @@
 ---
-title: 1. Inkapsling 
+title: Inkapsling 
 description: Inkapsling handlar om att skydda data.
 # icon: classical_building
 ---
