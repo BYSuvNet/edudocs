@@ -1,5 +1,5 @@
 site_name: C# - Så funkar det
-site_url: https://bysuvnet.github.io/edudocs
+# site_url: https://bysuvnet.github.io/edudocs BORGTTAGET FÖR ATT INTE GENERERA sitemap.xml som sökmotorer använder
 theme:
   features:
     # - navigation.sections
@@ -12,6 +12,7 @@ theme:
     # - navigation.path
     # - navigation.tabs
   name: material
+  custom_dir: overrides
   font:
     text: Montserrat
     code: Source Code Pro
