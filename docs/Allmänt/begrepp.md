@@ -26,6 +26,9 @@ Kodstandard är en uppsättning regler och riktlinjer som hjälper utvecklare at
 #### Kompilera
 Att kompilera betyder att översätta koden från ett språk till ett annat. I C# så kompilieras koden till så kallad IL-kod (Intermediate Language) som sedan körs av .NET:s Common Language Runtime (CLR) när programmet startas.
 
+#### Källkod / Bytekod / Maskinkod
+Källkod är den ursprungliga koden som du skriver i ett programmeringsspråk, som C#. Denna kod är läsbar för människor. När koden kompileras, översätts den till bytekod (i C# kallas det IL-kod), som är en mellanform som inte är direkt läsbar för människor. Det är inte alla programmeringsspråk som använder bytekod, vissa kompileras direkt till maskinkod. Maskinkod är den slutliga formen av koden som datorns processor kan förstå och köra direkt.
+
 #### Terminal/Konsol
 Terminalen, eller konsolen som det också kallas, är ett textbaserat gränssnitt som låter användaren interagera med datorn genom att skriva kommandon. Terminalen används också ofta för att administrera system över internet. Program som inte behöve något grafiskt gränssnitt körs ofta i terminalen, då de är lättare och snabbare att utveckla.
 [ Läs mer här.](./Datorkunskap/console.md).
@@ -36,3 +39,8 @@ Terminalen, eller konsolen som det också kallas, är ett textbaserat gränssnit
 #### SDK
 SDK står för Software Development Kit och är en samling verktyg och bibliotek som behövs för att utveckla applikationer i ett specifikt programmeringsspråk eller för en specifik plattform.
 
+#### Miljö (Environment)
+En miljö kan beskriva lite olika saker beroende på sammanhanget. Det kan vara den fysiska datorn där programmet körs, operativsystemet, eller den uppsättning av verktyg och bibliotek som används för att utveckla programmet. Det kan också referera till olika stadier i utvecklingsprocessen, som utvecklingsmiljön, testmiljön och produktionsmiljön.
+
+#### Ramverk / Framework
+Ett ramverk är en uppsättning förbyggda komponenter och verktyg som underlättar utvecklingen av programvara. Ramverk ger en struktur och riktlinjer för hur koden ska organiseras och kan innehålla funktioner för vanliga uppgifter som databasåtkomst, användarhantering och nätverkskommunikation. Exempel på ramverk är *ASP.NET* för webbutveckling och *Xamarin* för mobilapputveckling.
