@@ -14,7 +14,7 @@ Det finns många sätt att skriva pseudokod, och inget är rätt eller fel. Det 
 
 Ibland kan pseudokod likna ett riktigt programmeringsspråk:
 
-```
+```fortran
 IF antal < 10 THEN
     PRINT "Antalet är mindre än 10"
 ELSE
@@ -30,4 +30,29 @@ Ibland kan det vara ett naturligt språk skrivet som kommentarer i koden, för a
 // Om det är det, skriv ut att antalet är mindre än 10
 
 // Annars, skriv ut att antalet är 10 eller mer
+```
+
+En mall att utgå från kan vara:
+```
+Läs in X
+Initiera variabler
+Om/Vilka fall ...
+  Gör ...
+Annars ...
+  Gör ...
+Loop från … till …
+Skriv ut resultat
+```
+
+Exempel som använder mallen:
+```
+Läs in antal
+Initiera summa till 0
+Om antal < 10
+    Skriv ut "Antalet är mindre än 10"
+Annars
+    Skriv ut "Antalet är 10 eller mer"
+Loop från 1 till antal
+    Lägg till i summa
+Skriv ut summa
 ```

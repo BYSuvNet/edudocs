@@ -43,3 +43,34 @@ flowchart TD
     E --> G
     F --> G
 ```
+
+Det går att endast ha ett *if*-statement, utan *else if* eller *else*. Det går också att ha flera *else if*-satser för att kontrollera flera olika villkor.
+
+```csharp
+int number = 10;
+if (number > 0)
+{
+    Console.WriteLine("Numret är positivt.");
+}
+```
+
+```csharp
+int number = 10;
+if (number > 0)
+{
+    Console.WriteLine("Numret är positivt.");
+}
+else if (number < 0)
+{
+    Console.WriteLine("Numret är negativt.");
+}
+else if (number == 10)
+{
+    Console.WriteLine("Numret är exakt tio.");
+}
+else
+{
+    Console.WriteLine("Numret är noll.");
+}
+```
+
