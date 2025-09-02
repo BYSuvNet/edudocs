@@ -17,6 +17,7 @@ Mappar, eller kataloger som de också kallas, är behållare som används för a
 
 #### Sökväg
 En sökväg är en sträng som anger platsen för en fil eller mapp i ett filsystem. Det finns två typer av sökvägar: absoluta och relativa.
+
 * Absoluta sökvägar börjar från rotkatalogen och anger hela vägen till filen eller mappen, t.ex. `C:\Användare\DittNamn\Dokument\fil.txt`.
 * Relativa sökvägar anger platsen i förhållande till den aktuella katalogen, t.ex. `Dokument\fil.txt` om du befinner dig i `C:\Användare\DittNamn`.
 

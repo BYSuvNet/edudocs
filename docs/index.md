@@ -7,7 +7,7 @@
 
 Det här är en hemsida som sammanfattar grunderna i C# och utveckling i Microsoft .NET och Visual Studio Code.
 
-Det första du kan göra om du är helt ny är att gå till [Snabbguiden](./Övrigt/Guider/quickstart.md) och följa instruktionerna där för att installera allt du behöver, och komma igång med din första C#-applikation.
+Det första du kan göra om du är helt ny är att gå till [Installera VS Code och .NET](./Övrigt/Guider/quickstart.md) och följa instruktionerna där för att installera allt du behöver, och komma igång med din första C#-applikation.
 
 De stora sektionerna på sidan är:
 

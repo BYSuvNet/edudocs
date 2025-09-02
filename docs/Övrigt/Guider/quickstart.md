@@ -1,19 +1,13 @@
 
-# Snabbguide
+# Installation
 
-Det första du behöver göra för att komma igång med att programmera i C# är att ladda ner VS Code och .Net SDK. Det absolut lättaste sättet att gör det är att:
+Det första du behöver göra för att komma igång med att programmera i C# är att ladda ner **VS Code** och **.Net SDK**. 
+Det absolut lättaste sättet att gör det är att:
 
 #### Windows:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=windows
-2. Tryck på "Let's get started" och följ instruktionerna.
-
-#### Mac:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=macos
-2. Följ instruktionerna. Det är lite krångligare än windows men det går.
-
-#### Linux:
-1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro?initial-os=linux
-2. Följ instruktionerna. Det är lite krångligare än windows
+1. Gå hit: https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro
+2. Välj operativsystem bland flikarna
+3. Tryck på "Let's get started" och följ instruktionerna.
 
 #### VSCode
 
