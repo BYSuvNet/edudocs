@@ -1,5 +1,5 @@
 
-# Installation
+# Installera .NET
 
 Det första du behöver göra för att komma igång med att programmera i C# är att ladda ner **VS Code** och **.Net SDK**. 
 Det absolut lättaste sättet att gör det är att:
